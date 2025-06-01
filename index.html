@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>REGISTRATION FORM</title>
+        <style>
+            body {
+                font-family: 'Poppins', sans-serif;
+                margin: 0;
+                background: linear-gradient(135deg, #1e90ff, #4b0082);
+                color: #fff;
+                line-height: 1.6;
+                overflow-x: hidden;
+                animation: fadeIn 2s ease-in;
+            }
+    
+            @keyframes fadeIn {
+                0% { opacity: 0; }
+                100% { opacity: 1; }
+            }
+            @keyframes dynamicBackground {
+                0% { background: linear-gradient(45deg, #252b61, #013460); }
+                25% { background: linear-gradient(45deg, #0b1966, #34065c); }
+                50% { background: linear-gradient(45deg, #4d010190, #010121); }
+                75% { background: linear-gradient(45deg, #004d4e, #46033f); }
+                100% { background: linear-gradient(45deg, #000428, #013664); }
+            }
+            body {
+                animation: dynamicBackground 20s infinite alternate;
+            }
+            h1, h2 {
+                text-align: center;
+                color: #ffdd57;
+                text-shadow: 3px 3px 15px rgba(0,0,0,0.7);
+                animation: bounceIn 2s ease-in-out;
+            }
+    
+            @keyframes bounceIn {
+                0% { transform: scale(0.5); opacity: 0; }
+                60% { transform: scale(1.2); opacity: 1; }
+                100% { transform: scale(1); }
+            }
+    
+            .highlight {
+                color: #ff4500;
+                font-size: 80px;
+                text-align: center;
+                animation: rotateText 5s infinite linear;
+            }
+    
+            @keyframes rotateText {
+                0% { transform: rotateY(0); }
+                100% { transform: rotateY(360deg); }
+            }
+    
+            .contact-info, .friends-list {
+                margin-top: 30px;
+                transform: translateY(20px);
+                animation: slideUp 1s ease forwards;
+            }
+    
+            @keyframes slideUp {
+                0% { opacity: 0; transform: translateY(50px); }
+                100% { opacity: 1; transform: translateY(0); }
+            }
+    
+            table {
+                width: 90%;
+                margin: 20px auto;
+                border-collapse: collapse;
+                box-shadow: 0 0 15px rgba(0,0,0,0.5);
+                animation: fadeIn 2s ease-in;
+            }
+    
+            th, td {
+                border: 1px solid #fff;
+                padding: 12px;
+                text-align: center;
+            }
+    
+            th {
+                background: #1e90ff;
+                color: #fff;
+                animation: pulse 2s infinite alternate;
+            }
+    
+            @keyframes pulse {
+                0% { transform: scale(1); }
+                100% { transform: scale(1.05); }
+            }
+    
+            form {
+                background: rgba(255, 255, 255, 0.2);
+                padding: 60px;
+                border-radius: 90px;
+                box-shadow: 0 0 20px rgba(0,0,0,0.5);
+                max-width: 600px;
+                margin: 40px auto;
+                backdrop-filter: blur(10px);
+                animation: hackAnimation 5s infinite;
+            }
+    
+            @keyframes hackAnimation {
+                0% { box-shadow: 0 0 20px #00ff00; }
+                50% { box-shadow: 0 0 40px #ff0000; }
+                100% { box-shadow: 0 0 20px #00ff00; }
+            }
+    
+            input, select, textarea {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+            }
+    
+            input[type="submit"], input[type="reset"] {
+                background: #ff4500;
+                color: white;
+                cursor: pointer;
+                transition: background 0.3s;
+            }
+    
+            input[type="submit"]:hover, input[type="reset"]:hover {
+                background: #ff6347;
+            }
+    
+            .floating-cube {
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                background: #ffdd57;
+                animation: floatCube 6s infinite linear;
+            }
+    
+            @keyframes floatCube {
+                0% { transform: translateY(0) rotate(0); }
+                50% { transform: translateY(-100px) rotate(180deg); }
+                100% { transform: translateY(0) rotate(360deg); }
+            }
+        </style>
+    </head>
+    
+<body>
+
+    <marquee style="font-size: 25px;"> <b>SI.SHDT "GSM"</b></marquee>
+
+
+    <div class="floating-cube" style="top: 100px; left: 50px;"></div>
+    <div class="floating-cube" style="top: 200px; right: 50px;"></div>
+
+    <p class="highlight"><b><i>Creative Tech Championship</i></b></p>
+
+    <h1>Section & rules of this competetion :</Section>:</h1>
+    <blockquote>
+        <q><b style="font-size: 20px;">Creative Tech Championship
+            আপনিও হতে পারেন প্রযুক্তির হিরো!</b> <br> <br>
+            
+            আপনার প্রযুক্তিগত দক্ষতা, সৃজনশীলতা ও প্রতিভা প্রকাশের সেরা সুযোগ!
+            Graphics Design, Video Editing, Microsoft/Google Excellency, Web Development এবং Photography প্রতিযোগিতায় অংশ নিয়ে প্রমাণ করুন আপনার সামর্থ্য!<br> <br>
+            
+            🏆 অসাধারণ পুরস্কার ও প্রাইজমানি অপেক্ষা করছে বিজয়ীদের জন্য! 🏆<br> <br>
+            
+            🚀 প্রতিযোগিতার ক্যাটাগরি ও টাস্কসমূহ<br> <br> <br>
+            
+            🎨 Graphics Design<br>
+            ✅ টাস্ক ১: একটি আকর্ষণীয় ঈদ কার্ড ডিজাইন করুন।<br>
+            ✅ টাস্ক ২: "ক্রিয়েটিভ টেক চ্যাম্পিয়নশিপ পুরস্কার বিতরণী ও সমাপনী অনুষ্ঠান" – এই থিমে একটি ব্যানার ডিজাইন করুন।<br> <br> <br>
+            
+            
+            🎬 Video Editing <br> 
+            
+            ✅ টাস্ক ১: জুলাই গণঅভ্যুত্থান নিয়ে ২-৪ মিনিটের তথ্যবহুল ভিডিও তৈরি করুন।<br>
+            
+            ✅ টাস্ক ২: নিজের পছন্দের যেকোনো বিষয়ের ওপর একটি সৃজনশীল ভিডিও তৈরি করুন। ভিডিও দৈর্ঘ্য  ৫ মিনিটের কম হবে <br> <br> <br>
+            
+            📊 Microsoft / Google Excellency <br>
+            
+            ✅ টাস্ক ১: "বাংলাদেশ ইসলামী ছাত্রশিবির রাজশাহী মহানগর" নিয়ে PowerPoint প্রেজেন্টেশন তৈরি করুন।<br>
+            (ছাত্র শিবিরের উদ্দেশ্য ও পাঁচ দফা কর্মসূচি )<br>
+            
+            ✅ টাস্ক ২: Google Forms ব্যবহার করে একটি কুইজ প্রতিযোগিতার সেটআপ করুন।<br><br> <br>
+            
+            
+            💻 Web Development<br>
+            ✅ টাস্ক ১: একটি ডিজিটাল পোর্টফোলিও ওয়েবসাইট তৈরি করুন, যেখানে প্রতিযোগীর দক্ষতা, কাজের নমুনা ও অভিজ্ঞতা প্রদর্শিত থাকবে।<br><br> <br>
+            
+            
+            📷 Photography<br>
+            ✅ মোবাইল বা ক্যামেরায় তোলা সেরা ৫টি ছবি জমা দিন।<br>
+            
+            ✅ বিষয়বস্তু হতে পারে – প্রকৃতি, মানুষ, নদী বা যেকোনো থিম।<br>
+            
+            ✅ ছবিগুলো ৭ থেকে ১৩ মার্চের মধ্যে তোলা হতে হবে।<br>
+            
+            ✅ ছবির মান, সৃজনশীলতা ও থিমের সাথে সামঞ্জস্য দেখে মূল্যায়ন করা হবে।<br><br> <br>
+            
+            
+            📌 কনটেন্ট জমা দেওয়ার নিয়মাবলী<br> <br>
+            
+            🔷 অংশগ্রহণকারীকে কর্মী, সাথী বা সদস্য হতে হবে।<br>
+            
+            🔷 নির্দিষ্ট সময়ের মধ্যেই কনটেন্ট জমা দিতে হবে।<br>
+            
+            🔷কেউ চাইলে একাধিক বিষয়ে অংশ নিতে পারেন। <br>
+            
+            🔷 নাম, শিক্ষা প্রতিষ্ঠান, শ্রেণি/বর্ষ, থানার নাম, সাংগঠনিক মান, মোবাইল নম্বর উল্লেখ করে জমা দিতে হবে।<br>
+            
+            🔷Website এ রেজিস্ট্রেশন করে আপনার প্রজেক্ট ফাইল আপলোড করুন।<br> <br> <br>
+    
+            🛑 রেজিস্ট্রেশনের শেষ তারিখ: ২০ মার্চ ২০২৫<br><br> <br>
+            
+            ⏳ দেরি না করে এখনই প্রস্তুতি শুরু করুন! 🏆✨</q>
+    </blockquote>
+
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p>
+            📞 সার্বক্ষণিক  যোগাযোগের জন্য <br>
+            🔹 টেলিগ্রাম: <a href="https://t.me/kssrmbd" style="color: #ffdd57;">Click here</a><br>
+            🔹 অফলাইন যোগাযোগ: 📱 01327901585</p> <br><br><br>
+    </section>
+
+    <form action="#" method="post">
+        <h2>REGISTRATION  FORM</h2>
+        
+        <lebel for="text">নাম</lebel>
+        <input type="text" id="text" name="text" placeholder="আপনার নাম লিখুন
+        " required> <br><br>
+
+        <lebel for="text">পিতার নাম</lebel>
+        <input type="text" id="text" name="text" placeholder="আপনার পিতার নাম লিখুন" required> <br><br>
+
+        <lebel for="text">মাতার নাম</lebel>
+        <input type="text" id="text" name="text" placeholder="আপনার মাতার নাম লিখুন
+        " required> <br><br>
+
+        <lebel for="text">ইমেইল</lebel>
+        <input type="text" id="text" name="text" placeholder="আপনার ইমেইল টি এইখানে দিন
+        "> <br><br>
+
+    
+        <label>লিঙ্গ:</label>
+        <select name="gender" required>
+            <option value="male">পুরুষ</option>
+            <option value="female">মহিলা</option>
+            <option value="other">অন্যান্য</option>
+        </select>
+        <label>জাতীয় পরিচয়পত্র নম্বর (যদি থাকে):</label><input type="text" name="nid"> <br>
+
+        <label> জন্ম নিবন্ধন নম্বর:</label><input type="text" name="nid" required> <br>
+
+
+        <!-- শিক্ষাগত তথ্য -->
+        <label>শিক্ষা প্রতিষ্ঠানের নাম:</label><input type="text" name="institution" required>
+        <label>বিভাগ:</label><input type="text" name="department" required>
+        <label>শ্রেণি/বর্ষ:</label><input type="text" name="class_year" required>
+        <label>রোল নম্বর:</label><input type="text" name="roll_number" required> <br> <br>
+        
+
+        <!-- যোগাযোগের তথ্য -->
+        <u>বর্তমান ঠিকানা: </u> <br><br>
+
+        <label for="div">বিভাগ</label>
+        <select>
+            <option value="ঢাকা">ঢাকা</option>
+            <option value="চট্টগ্রাম">চট্টগ্রাম</option>
+            <option value="রাজশাহী">রাজশাহী</option>
+            <option value="খুলনা">খুলনা</option>
+            <option value="বরিশাল">বরিশাল</option>
+            <option value="সিলেট">সিলেট</option>
+            <option value="রংপুর">রংপুর</option>
+            <option value="ময়মনসিংহ">ময়মনসিংহ</option>
+        </select required>
+
+
+        <label for="district">জেলা নির্বাচন করুন:</label>
+        <select id="district" name="district">
+            <option value="dhaka">ঢাকা</option>
+            <option value="chattogram">চট্টগ্রাম</option>
+            <option value="khulna">খুলনা</option>
+            <option value="rajshahi">রাজশাহী</option>
+            <option value="barisal">বরিশাল</option>
+            <option value="rangpur">রংপুর</option>
+            <option value="mymensingh">ময়মনসিংহ</option>
+            <option value="sylhet">সিলেট</option>
+            <option value="bogura">বগুড়া</option>
+            <option value="pabna">পাবনা</option>
+            <option value="naogaon">নওগাঁ</option>
+            <option value="sirajganj">সিরাজগঞ্জ</option>
+            <option value="meherpur">মেহেরপুর</option>
+            <option value="jashore">যশোর</option>
+            <option value="magura">মাগুরা</option>
+            <option value="chandpur">চাঁদপুর</option>
+            <option value="brahmanbaria">ব্রাহ্মণবাড়িয়া</option>
+            <option value="comilla">কুমিল্লা</option>
+            <option value="lakshmipur">লক্ষ্মীপুর</option>
+            <option value="noakhali">নোয়াখালী</option>
+            <option value="feni">ফেনী</option>
+            <option value="khagrachari">খাগড়াছড়ি</option>
+            <option value="bandarban">বান্দরবান</option>
+            <option value="chattogram">চট্টগ্রাম</option>
+            <option value="satkhira">সাতক্ষীরা</option>
+            <option value="khulna">খুলনা</option>
+            <option value="jhalokathi">ঝালকাঠি</option>
+            <option value="patuakhali">পটুয়াখালী</option>
+            <option value="bhola">ভোলা</option>
+            <option value="barisal">বরিশাল</option>
+            <option value="pirojpur">পিরোজপুর</option>
+            <option value="bagerhat">বাগেরহাট</option>
+            <option value="rajbari">রাজবাড়ী</option>
+            <option value="gopalganj">গোপালগঞ্জ</option>
+            <option value="shariatpur">শরিয়তপুর</option>
+            <option value="madaripur">মাদারীপুর</option>
+            <option value="munshiganj">মুন্সিগঞ্জ</option>
+            <option value="dhaka">ঢাকা</option>
+            <option value="manikganj">মানিকগঞ্জ</option>
+            <option value="tangail">টাঙ্গাইল</option>
+            <option value="gazipur">গাজীপুর</option>
+            <option value="narayanganj">নারায়ণগঞ্জ</option>
+            <option value="narail">নারাইল</option>
+            <option value="rajshahi">রাজশাহী</option>
+            <option value="chattogram">চট্টগ্রাম</option>
+            <option value="pabna">পাবনা</option>
+            <option value="bhola">ভোলা</option>
+            <option value="sylhet">সিলেট</option>
+            <option value="dinajpur">দিনাজপুর</option>
+            <option value="rangpur">রংপুর</option>
+            <option value="khulna">খুলনা</option>
+            <option value="meherpur">মেহেরপুর</option>
+            <option value="jashore">যশোর</option>
+            <option value="magura">মাগুরা</option>
+            <option value="chandpur">চাঁদপুর</option>
+            <option value="brahmanbaria">ব্রাহ্মণবাড়িয়া</option>
+            <option value="comilla">কুমিল্লা</option>
+        </select required>
+
+
+        <label for="upojela">উপজেলা নির্বাচন করুন:</label>
+        <select id="upojela" name="upojela">
+            <!-- Rajshahi Division -->
+            <option value="bagha">বাঘা উপজেলা</option>
+            <option value="puthiya">পুঠিয়া উপজেলা</option>
+            <option value="paba">পবা উপজেলা</option>
+            <option value="bagmara">বাগমারা উপজেলা</option>
+            <option value="tanos">তানোর উপজেলা</option>
+            <option value="mohonpur">মোহনপুর উপজেলা</option>
+            <option value="charghat">চারঘাট উপজেলা</option>
+            <option value="godagari">গোদাগারী উপজেলা</option>
+            <option value="duragpur">দূর্গাপুর উপজেলা</option>
+
+            <!-- Naogaon Division -->
+            <option value="naogaon_sadar">নওগাঁ সদর উপজেলা</option>
+            <option value="adamdighi">আদমদিঘী উপজেলা</option>
+            <option value="bagatipara">বাগাতিপাড়া উপজেলা</option>
+            <option value="porsha">পোরশা উপজেলা</option>
+            <option value="mahadebpur">মহাদেবপুর উপজেলা</option>
+            <option value="raninagar">রানীনগর উপজেলা</option>
+            <option value="sadar">নওগাঁ সদর উপজেলা</option>
+            <option value="manat">মানত উপজেলা</option>
+            <option value="bargram">বরইগ্রাম উপজেলা</option>
+
+            <!-- Bogura Division -->
+            <option value="bogra_sadar">বগুড়া সদর উপজেলা</option>
+            <option value="dhunot">ধুনট উপজেলা</option>
+            <option value="gabtali">গাবতলী উপজেলা</option>
+            <option value="kahalu">কাহালু উপজেলা</option>
+            <option value="nondigram">নন্দীগ্রাম উপজেলা</option>
+            <option value="shazahanpur">শাজাহানপুর উপজেলা</option>
+            <option value="sherpur">শেরপুর উপজেলা</option>
+            <option value="singer">সিংড়া উপজেলা</option>
+            <option value="balahat">বালাহাট উপজেলা</option>
+
+            <!-- Chapainawabganj Division -->
+            <option value="chapainawabganj">চাঁপাইনবাবগঞ্জ জেলা</option>
+            <option value="shibganj">শিবগঞ্জ উপজেলা</option>
+            <option value="nachol">নাচোল উপজেলা</option>
+            <option value="gomatapur">গোমস্তাপুর উপজেলা</option>
+            <option value="bholahat">ভোলাহাট উপজেলা</option>
+            <
+
+            <!-- Other Districts -->
+            <option value="dhaka_sadar">ঢাকা সদর উপজেলা</option>
+            <option value="narayanganj">নারায়ণগঞ্জ উপজেলা</option>
+            <option value="chattogram_sadar">চট্টগ্রাম সদর উপজেলা</option>
+            <option value="khulna_sadar">খুলনা সদর উপজেলা</option>
+
+            <input type="upojela" id="upojela" name="upojela" placeholder="উপরোক্ত উপজেলা সিলেকশন অপশনে যদি নিজের উপজেলার নাম খুঁজে না পান তাহলে এখানে লিখে দিন"> <br>
+
+            <lebel for="text">ইউনিয়ন</lebel>
+            <input type="text" id="text" name="text" placeholder="আপনার ইউনিয়নের নাম টি লিখুন" required>
+
+            <lebel for="text">গ্রাম</lebel>
+            <input type="text" id="text" name="text" placeholder="আপনার গ্রামের নাম টি লিখুন" required>
+
+            <lebel for="text">পোষ্ট</lebel>
+            <input type="text" id="text" name="text" placeholder="আপনার পোষ্ট টি লিখুন" required>
+
+
+            <lebel for="text">পোষ্ট কোড</lebel>
+            <input type="text" id="text" name="text" placeholder="আপনার পোষ্ট কোড টি লিখুন" required>  <br> <br>
+            
+
+            <!-- যোগাযোগের তথ্য -->
+        <u>স্থায়ী ঠিকানা: </u> <br><br>
+
+        <label for="div">বিভাগ</label>
+        <select>
+            <option value="ঢাকা">ঢাকা</option>
+            <option value="চট্টগ্রাম">চট্টগ্রাম</option>
+            <option value="রাজশাহী">রাজশাহী</option>
+            <option value="খুলনা">খুলনা</option>
+            <option value="বরিশাল">বরিশাল</option>
+            <option value="সিলেট">সিলেট</option>
+            <option value="রংপুর">রংপুর</option>
+            <option value="ময়মনসিংহ">ময়মনসিংহ</option>
+        </select required>
+
+
+        <label for="district">জেলা নির্বাচন করুন:</label>
+        <select id="district" name="district">
+            <option value="dhaka">ঢাকা</option>
+            <option value="chattogram">চট্টগ্রাম</option>
+            <option value="khulna">খুলনা</option>
+            <option value="rajshahi">রাজশাহী</option>
+            <option value="barisal">বরিশাল</option>
+            <option value="rangpur">রংপুর</option>
+            <option value="mymensingh">ময়মনসিংহ</option>
+            <option value="sylhet">সিলেট</option>
+            <option value="bogura">বগুড়া</option>
+            <option value="pabna">পাবনা</option>
+            <option value="naogaon">নওগাঁ</option>
+            <option value="sirajganj">সিরাজগঞ্জ</option>
+            <option value="meherpur">মেহেরপুর</option>
+            <option value="jashore">যশোর</option>
+            <option value="magura">মাগুরা</option>
+            <option value="chandpur">চাঁদপুর</option>
+            <option value="brahmanbaria">ব্রাহ্মণবাড়িয়া</option>
+            <option value="comilla">কুমিল্লা</option>
+            <option value="lakshmipur">লক্ষ্মীপুর</option>
+            <option value="noakhali">নোয়াখালী</option>
+            <option value="feni">ফেনী</option>
+            <option value="khagrachari">খাগড়াছড়ি</option>
+            <option value="bandarban">বান্দরবান</option>
+            <option value="chattogram">চট্টগ্রাম</option>
+            <option value="satkhira">সাতক্ষীরা</option>
+            <option value="khulna">খুলনা</option>
+            <option value="jhalokathi">ঝালকাঠি</option>
+            <option value="patuakhali">পটুয়াখালী</option>
+            <option value="bhola">ভোলা</option>
+            <option value="barisal">বরিশাল</option>
+            <option value="pirojpur">পিরোজপুর</option>
+            <option value="bagerhat">বাগেরহাট</option>
+            <option value="rajbari">রাজবাড়ী</option>
+            <option value="gopalganj">গোপালগঞ্জ</option>
+            <option value="shariatpur">শরিয়তপুর</option>
+            <option value="madaripur">মাদারীপুর</option>
+            <option value="munshiganj">মুন্সিগঞ্জ</option>
+            <option value="dhaka">ঢাকা</option>
+            <option value="manikganj">মানিকগঞ্জ</option>
+            <option value="tangail">টাঙ্গাইল</option>
+            <option value="gazipur">গাজীপুর</option>
+            <option value="narayanganj">নারায়ণগঞ্জ</option>
+            <option value="narail">নারাইল</option>
+            <option value="rajshahi">রাজশাহী</option>
+            <option value="chattogram">চট্টগ্রাম</option>
+            <option value="pabna">পাবনা</option>
+            <option value="bhola">ভোলা</option>
+            <option value="sylhet">সিলেট</option>
+            <option value="dinajpur">দিনাজপুর</option>
+            <option value="rangpur">রংপুর</option>
+            <option value="khulna">খুলনা</option>
+            <option value="meherpur">মেহেরপুর</option>
+            <option value="jashore">যশোর</option>
+            <option value="magura">মাগুরা</option>
+            <option value="chandpur">চাঁদপুর</option>
+            <option value="brahmanbaria">ব্রাহ্মণবাড়িয়া</option>
+            <option value="comilla">কুমিল্লা</option>
+        </select required>
+
+
+        <label for="upojela">উপজেলা নির্বাচন করুন:</label>
+        <select id="upojela" name="upojela">
+            <!-- Rajshahi Division -->
+            <option value="bagha">বাঘা উপজেলা</option>
+            <option value="puthiya">পুঠিয়া উপজেলা</option>
+            <option value="paba">পবা উপজেলা</option>
+            <option value="bagmara">বাগমারা উপজেলা</option>
+            <option value="tanos">তানোর উপজেলা</option>
+            <option value="mohonpur">মোহনপুর উপজেলা</option>
+            <option value="charghat">চারঘাট উপজেলা</option>
+            <option value="godagari">গোদাগারী উপজেলা</option>
+            <option value="duragpur">দূর্গাপুর উপজেলা</option>
+
+            <!-- Naogaon Division -->
+            <option value="naogaon_sadar">নওগাঁ সদর উপজেলা</option>
+            <option value="adamdighi">আদমদিঘী উপজেলা</option>
+            <option value="bagatipara">বাগাতিপাড়া উপজেলা</option>
+            <option value="porsha">পোরশা উপজেলা</option>
+            <option value="mahadebpur">মহাদেবপুর উপজেলা</option>
+            <option value="raninagar">রানীনগর উপজেলা</option>
+            <option value="sadar">নওগাঁ সদর উপজেলা</option>
+            <option value="manat">মানত উপজেলা</option>
+            <option value="bargram">বরইগ্রাম উপজেলা</option>
+
+            <!-- Bogura Division -->
+            <option value="bogra_sadar">বগুড়া সদর উপজেলা</option>
+            <option value="dhunot">ধুনট উপজেলা</option>
+            <option value="gabtali">গাবতলী উপজেলা</option>
+            <option value="kahalu">কাহালু উপজেলা</option>
+            <option value="nondigram">নন্দীগ্রাম উপজেলা</option>
+            <option value="shazahanpur">শাজাহানপুর উপজেলা</option>
+            <option value="sherpur">শেরপুর উপজেলা</option>
+            <option value="singer">সিংড়া উপজেলা</option>
+            <option value="balahat">বালাহাট উপজেলা</option>
+
+            <!-- Chapainawabganj Division -->
+            <option value="chapainawabganj">চাঁপাইনবাবগঞ্জ জেলা</option>
+            <option value="shibganj">শিবগঞ্জ উপজেলা</option>
+            <option value="nachol">নাচোল উপজেলা</option>
+            <option value="gomatapur">গোমস্তাপুর উপজেলা</option>
+            <option value="bholahat">ভোলাহাট উপজেলা</option>
+            <
+
+            <!-- Other Districts -->
+            <option value="dhaka_sadar">ঢাকা সদর উপজেলা</option>
+            <option value="narayanganj">নারায়ণগঞ্জ উপজেলা</option>
+            <option value="chattogram_sadar">চট্টগ্রাম সদর উপজেলা</option>
+            <option value="khulna_sadar">খুলনা সদর উপজেলা</option>
+
+            <input type="upojela" id="upojela" name="upojela" placeholder="উপরোক্ত উপজেলা সিলেকশন অপশনে যদি নিজের উপজেলার নাম খুঁজে না পান তাহলে এখানে লিখে দিন"> <br>
+
+            <lebel for="text">ইউনিয়ন</lebel>
+            <input type="text" id="text" name="text" placeholder="আপনার ইউনিয়নের নাম টি লিখুন" required>
+
+            <lebel for="text">গ্রাম</lebel>
+            <input type="text" id="text" name="text" placeholder="আপনার গ্রামের নাম টি লিখুন" required>
+
+            <lebel for="text">পোষ্ট</lebel>
+            <input type="text" id="text" name="text" placeholder="আপনার পোষ্ট টি লিখুন" required>
+
+
+            <lebel for="text">পোষ্ট কোড</lebel>
+            <input type="text" id="text" name="text" placeholder="আপনার পোষ্ট কোড টি লিখুন" required>
+
+
+        
+
+
+        <lebel for="phn">Phone Number</lebel>
+        <select>
+            <option value="+880">+880 (Bangladesh)</option>
+<option value="+93">+93 (Afghanistan)</option>
+<option value="+355">+355 (Albania)</option>
+<option value="+213">+213 (Algeria)</option>
+<option value="+376">+376 (Andorra)</option>
+<option value="+244">+244 (Angola)</option>
+<option value="+54">+54 (Argentina)</option>
+<option value="+374">+374 (Armenia)</option>
+<option value="+61">+61 (Australia)</option>
+<option value="+43">+43 (Austria)</option>
+<option value="+994">+994 (Azerbaijan)</option>
+<option value="+1-242">+1-242 (Bahamas)</option>
+<option value="+973">+973 (Bahrain)</option>
+<option value="+375">+375 (Belarus)</option>
+<option value="+32">+32 (Belgium)</option>
+<option value="+975">+975 (Bhutan)</option>
+<option value="+55">+55 (Brazil)</option>
+<option value="+673">+673 (Brunei)</option>
+<option value="+359">+359 (Bulgaria)</option>
+<option value="+855">+855 (Cambodia)</option>
+<option value="+1">+1 (Canada)</option>
+<option value="+56">+56 (Chile)</option>
+<option value="+86">+86 (China)</option>
+<option value="+57">+57 (Colombia)</option>
+<option value="+506">+506 (Costa Rica)</option>
+<option value="+385">+385 (Croatia)</option>
+<option value="+53">+53 (Cuba)</option>
+<option value="+357">+357 (Cyprus)</option>
+<option value="+420">+420 (Czechia)</option>
+<option value="+45">+45 (Denmark)</option>
+<option value="+20">+20 (Egypt)</option>
+<option value="+372">+372 (Estonia)</option>
+<option value="+358">+358 (Finland)</option>
+<option value="+33">+33 (France)</option>
+<option value="+995">+995 (Georgia)</option>
+<option value="+49">+49 (Germany)</option>
+<option value="+233">+233 (Ghana)</option>
+<option value="+30">+30 (Greece)</option>
+<option value="+502">+502 (Guatemala)</option>
+<option value="+509">+509 (Haiti)</option>
+<option value="+504">+504 (Honduras)</option>
+<option value="+36">+36 (Hungary)</option>
+<option value="+354">+354 (Iceland)</option>
+<option value="+91">+91 (India)</option>
+<option value="+62">+62 (Indonesia)</option>
+<option value="+98">+98 (Iran)</option>
+<option value="+964">+964 (Iraq)</option>
+<option value="+353">+353 (Ireland)</option>
+<option value="+972">+972 (Israel)</option>
+<option value="+39">+39 (Italy)</option>
+<option value="+1-876">+1-876 (Jamaica)</option>
+<option value="+81">+81 (Japan)</option>
+<option value="+962">+962 (Jordan)</option>
+<option value="+7">+7 (Kazakhstan)</option>
+<option value="+254">+254 (Kenya)</option>
+<option value="+965">+965 (Kuwait)</option>
+<option value="+856">+856 (Laos)</option>
+<option value="+371">+371 (Latvia)</option>
+<option value="+961">+961 (Lebanon)</option>
+<option value="+218">+218 (Libya)</option>
+<option value="+370">+370 (Lithuania)</option>
+<option value="+352">+352 (Luxembourg)</option>
+<option value="+261">+261 (Madagascar)</option>
+<option value="+60">+60 (Malaysia)</option>
+<option value="+960">+960 (Maldives)</option>
+<option value="+356">+356 (Malta)</option>
+<option value="+52">+52 (Mexico)</option>
+<option value="+377">+377 (Monaco)</option>
+<option value="+976">+976 (Mongolia)</option>
+<option value="+382">+382 (Montenegro)</option>
+<option value="+212">+212 (Morocco)</option>
+<option value="+977">+977 (Nepal)</option>
+<option value="+31">+31 (Netherlands)</option>
+<option value="+64">+64 (New Zealand)</option>
+<option value="+505">+505 (Nicaragua)</option>
+<option value="+234">+234 (Nigeria)</option>
+<option value="+47">+47 (Norway)</option>
+<option value="+968">+968 (Oman)</option>
+<option value="+92">+92 (Pakistan)</option>
+<option value="+507">+507 (Panama)</option>
+<option value="+595">+595 (Paraguay)</option>
+<option value="+51">+51 (Peru)</option>
+<option value="+63">+63 (Philippines)</option>
+<option value="+48">+48 (Poland)</option>
+<option value="+351">+351 (Portugal)</option>
+<option value="+974">+974 (Qatar)</option>
+<option value="+40">+40 (Romania)</option>
+<option value="+7">+7 (Russia)</option>
+<option value="+966">+966 (Saudi Arabia)</option>
+<option value="+381">+381 (Serbia)</option>
+<option value="+65">+65 (Singapore)</option>
+<option value="+421">+421 (Slovakia)</option>
+<option value="+386">+386 (Slovenia)</option>
+<option value="+27">+27 (South Africa)</option>
+<option value="+82">+82 (South Korea)</option>
+<option value="+34">+34 (Spain)</option>
+<option value="+94">+94 (Sri Lanka)</option>
+<option value="+46">+46 (Sweden)</option>
+<option value="+41">+41 (Switzerland)</option>
+<option value="+886">+886 (Taiwan)</option>
+<option value="+66">+66 (Thailand)</option>
+<option value="+216">+216 (Tunisia)</option>
+<option value="+90">+90 (Turkey)</option>
+<option value="+380">+380 (Ukraine)</option>
+<option value="+971">+971 (United Arab Emirates)</option>
+<option value="+44">+44 (United Kingdom)</option>
+<option value="+1">+1 (United States)</option>
+<option value="+998">+998 (Uzbekistan)</option>
+<option value="+58">+58 (Venezuela)</option>
+<option value="+84">+84 (Vietnam)</option>
+<option value="+967">+967 (Yemen)</option>
+<option value="+260">+260 (Zambia)</option>
+<option value="+263">+263 (Zimbabwe)</option>
+</select required>
+        <input type="phn" id="phn" name="phn" placeholder="Enter your phone number" required> <br>
+
+
+        <!-- জরুরি যোগাযোগ -->
+        <label>জরুরি যোগাযোগ ব্যক্তি:</label><input type="text" name="emergency_contact" required>
+        <label>জরুরি যোগাযোগ নম্বর:</label><input type="text" name="emergency_contact_number" required> <br>
+
+        আপনার সংগঠনিক পদ <br>
+        <select>
+            <option value="কর্মী">কর্মী</option>
+            <option value="সাথী">সাথী</option>
+            <option value="সদস্য">সদস্য</option>
+        </select required> <br> <br>
+
+    
+        আপনি কোন বিষয়ে প্রতিযোগিতা দিতে ইচ্ছুক ? <br>
+        <select>
+            <option value="🎨Graphics Design">🎨Graphics Design</option>
+            <option value="🎬 Video Editing">🎬 Video Editing</option>
+            <option value="📊 Microsoft / Google Excellency">📊 Microsoft / Google Excellency</option>
+            <option value="💻 Web Developmen">💻 Web Developmen</option>
+            <option value="📷 Photography">📷 Photography</option>
+        </select required> <br> <br>
+
+
+        আপনি কি পূর্বে কখনো এই ধরনের প্রতিযোগিতায় অংশগ্রহণ করেছিলেন? <br>
+<select>
+    <option value="হ্যা করেছিলাম">হ্যা করেছিলাম</option>
+    <option value="না করিনি, এটাই প্রথম">না করিনি, এটাই প্রথম</option>
+</select required> <br> <br>
+
+আপনি যে বিষয়ে প্রতিযোগিতায় অংশগ্রহণ করতে  ইচ্ছুক, সেইখানে আপনার অভিজ্ঞতা কেমন বলে আপনি মনে করেন...! <br>
+<select>
+    <option value="আলহামদুলিল্লাহ অনেক ভালো">আলহামদুলিল্লাহ অনেক ভালো</option>
+    <option value="মধ্যম">মধ্যম</option>
+</select required> <br> <br>
+
+         <lebel for="file">আপনার প্রজেক্ট ফাইলটি আপলোড করুন</lebel>
+        <input type="file" id="file" name="file" required> <br> <br>
+
+        <lebel for="date">প্রজেক্ট আপলোডের তারিখ</lebel>
+        <input type="date" id="date" name="date" required><br> <br>
+
+        <lebel for="time">প্রজেক্ট আপলোড এর সময়</lebel>
+        <input type="time" id="time" name="time" required><br> <br> <br>
+
+        <h1>প্রতিযোগিতাটি নিয়ে আপনার মনোভাব ব্যক্ত করুন</h1>
+
+        <label for="comment"></label>
+        <textarea id="comment" name="comment" rows="4" placeholder="এইখানে আপনার মতামত দিন"></textarea>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
